@@ -110,13 +110,13 @@ async function displayCard() {
     const data = await fetchData(`${API_URL}/${cardId}`);
     const card = createCard(data);
     const back = createBack(data);
-    const rating = createRating(data);    //new
-    const title = createTitle(data);   //new
+    const rating = createRating(data);
+    const title = createTitle(data);
     cardContainer.innerHTML = card;
     backContainer.innerHTML = back;
-    ratingContainer.innerHTML = rating;  //new
+    ratingContainer.innerHTML = rating;
     // document.getElementById('h2').style.background = "lightblue";
-    titleContainer.innerHTML = title;   //new
+    titleContainer.innerHTML = title;
 }
 
 // Запуск приложения
