@@ -17,7 +17,7 @@ function getCardIdFromUrl() {
     return cardId;
 }
 
-// Создание HTML-кода для карточки
+// Создание HTML-кода для видео с описанием
 function createCard(cardData) {
     const cardTemplate = `
     <div class="video">
